@@ -135,10 +135,10 @@ python-dotenv>=1.0.0
 ## 👤 Author
 
 **Arnabh** — BCA (Data Science & AI) Student  
-[@visxhist._](https://instagram.com/visxhist._) on Instagram  
+[@zenslife.exe](https://www.instagram.com/zenslife.exe/) on Instagram  
 
 ---
 
 ## 📄 License
 
-MIT License — free to use, modify, and share.
+MIT License — free to use, modify.

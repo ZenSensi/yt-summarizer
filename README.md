@@ -52,7 +52,7 @@ yt-summarizer/
 
 **1. Clone the repo**
 ```bash
-git clone https://github.com/YOUR_USERNAME/yt-summarizer.git
+git clone https://github.com/ZenSensi/yt-summarizer.git
 cd yt-summarizer
 ```
 

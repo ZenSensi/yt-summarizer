@@ -2,11 +2,13 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from openai import OpenAI
 import os
 
-os.environ["OPENROUTER_API_KEY"] = "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"
+# This works both locally and on Streamlit Cloud
+api_key = os.environ.get("OPENROUTER_API_KEY") or \
+          __import__('streamlit').secrets.get("OPENROUTER_API_KEY")
 
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=os.environ["OPENROUTER_API_KEY"]
+    api_key=api_key
 )
 
 def get_video_id(url):

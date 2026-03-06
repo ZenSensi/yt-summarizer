@@ -141,4 +141,4 @@ python-dotenv>=1.0.0
 
 ## 📄 License
 
-MIT License — free to use, modify.
+MIT License — free to use and modify.
